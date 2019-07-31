@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: antiquewhite;
+}
+.heading_content {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  padding: 10px;
+}
+.clicker {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  background-color: grey;
+  border-width: 5px;
+  margin-top: 50px;
+  border-color: red;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.disp {
+  align-self: center;
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 78px;
+}
+.add {
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  display: flex;
+  background-color: #4df033;
+  border-bottom-left-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.reload {
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  background-color: #d8f011;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtract {
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+}
